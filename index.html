@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LeBistrot, Acceuil</title>
+    <link rel="icon" href="./photos/link.png" type="image/x-icon">
 </head>
 <body>
-    Bienvenu chez le Bistrot
+    <header>
+        <nav class="menu">
+            <img src="./photos/lebistrot_bg.png" alt="logo" height="100" width="100">
+            <ul>
+                <li><a href="#" title="Acceuil">Acceuil</a></li>
+                <li><a href="menu.html" title="Menu">Menu</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h1> LeBistrot</h1>
+        <img src="./photos/repa7.jpg" alt="restau" width="1200">
+        <button onclick="window.location.href='menu.html'">Menu</button>
+    </section>
+    <section>
+        <h1> A propos du restaurant</h1>
+        <img src="./photos/repa4.jpg" alt="repas1" height="300">
+        <p>LeBistrot vous invite à une expérience culinaire authentique où les saveurs classiques se mêlent à une touche moderne. Notre équipe passionnée travaille avec dévouement pour offrir à nos clients une ambiance chaleureuse et des plats savoureux, mettant en valeur les ingrédients frais et de qualité. Venez découvrir notre engagement envers la gastronomie, où chaque repas est une célébration de la cuisine traditionnelle revisitée.</p>
+    </section>
+    <section>
+        <h1>Decouvrire notre menu</h1>
+        <p>Explorez notre menu varié qui reflète notre engagement envers la qualité et la créativité culinaire. Des plats traditionnels revisités aux créations contemporaines, chaque élément est soigneusement préparé pour offrir une expérience gastronomique mémorable. Découvrez notre sélection de délices culinaires et laissez-vous séduire par les saveurs uniques du Bistrot.</p>
+        <button onclick="window.location.href='menu.html'">Menu</button>
+    </section>
+    <section>
+        <h1>Nous contacter</h1>
+        <p>Avez-vous des questions ? Contactez-nous par téléphone, e-mail ou via notre formulaire en ligne. Nous sommes là pour vous aider !</p>
+        <form action="contact.html">
+            <div>
+                <label for="contact.html">Nom</label>
+                <input type="text" name="Nom" id="user">
+            </div>
+            <div>
+                <label for="contact.html">Email</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="contact.html">Message</label>
+                <textarea name="Message" id="texte" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button>soumettre</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <address>123 rue Hay Essalam</address>
+    </footer>
 </body>
 </html>
